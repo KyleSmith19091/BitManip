@@ -47,7 +47,7 @@ TEST(isBitSet, basic) {
 }
 
 TEST(toggleBitTest, basic) {
-    EXPECT_EQ(16, BitManip::toggleBit(20,3));
+    EXPECT_EQ(16, BitManip::toggleKBit(20,3));
 }
 
 TEST(unsetRightmostBitTest, basic) {

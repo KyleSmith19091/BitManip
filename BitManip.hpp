@@ -78,7 +78,7 @@ namespace BitManip {
      * @param k Position of the bit to be toggled
      * @return constexpr int 
      */
-    constexpr int toggleBit(const int& i, const int& k) noexcept {
+    constexpr int toggleKBit(const int& i, const int& k) noexcept {
         return i ^ (1 << (k-1));
     }
 
@@ -176,7 +176,7 @@ namespace BitManip {
     }
 
     /**
-     * @brief Get the Rightmost Bit Position
+     * @brief Get the Rightmost Set Bit Position
      * 
      * @param i Number to check 
      * @return int 
