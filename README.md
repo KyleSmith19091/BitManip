@@ -1,7 +1,7 @@
 # Integer and Character Bit Manipulation
 
 This is a header only library for common bit manipulation and other operations using constexpr and some bit manipulation techniques to provide a low
-overhead and effiecent interface.
+overhead and efficient interface.
 
 ## Possible Operations
 ### Number Manipulation
